@@ -13,7 +13,7 @@ PODS:
   - Alamofire (4.8.2)
   - AlamofireNetworkActivityIndicator (2.4.0):
     - Alamofire (~> 4.8)
-  - Amplitude (8.3.0)
+  - Amplitude (8.3.1)
   - CardIO (5.4.1)
   - Charts (3.4.0):
     - Charts/Core (= 3.4.0)
@@ -23,89 +23,108 @@ PODS:
   - CryptoSwift (1.0.0)
   - Dispatch (2.0.4)
   - Fabric (1.10.2)
-  - Firebase/Analytics (7.3.0):
+  - Firebase/Analytics (8.6.0):
     - Firebase/Core
-  - Firebase/Core (7.3.0):
+  - Firebase/Core (8.6.0):
     - Firebase/CoreOnly
-    - FirebaseAnalytics (= 7.3.0)
-  - Firebase/CoreOnly (7.3.0):
-    - FirebaseCore (= 7.3.0)
-  - Firebase/Crashlytics (7.3.0):
+    - FirebaseAnalytics (~> 8.6.0)
+  - Firebase/CoreOnly (8.6.0):
+    - FirebaseCore (= 8.6.0)
+  - Firebase/Crashlytics (8.6.0):
     - Firebase/CoreOnly
-    - FirebaseCrashlytics (~> 7.3.0)
-  - Firebase/RemoteConfig (7.3.0):
+    - FirebaseCrashlytics (~> 8.6.0)
+  - Firebase/RemoteConfig (8.6.0):
     - Firebase/CoreOnly
-    - FirebaseRemoteConfig (~> 7.3.0)
-  - FirebaseABTesting (7.3.0):
-    - FirebaseCore (~> 7.0)
-  - FirebaseAnalytics (7.3.0):
-    - FirebaseCore (~> 7.0)
-    - FirebaseInstallations (~> 7.0)
-    - GoogleAppMeasurement (= 7.3.0)
-    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
-    - GoogleUtilities/MethodSwizzler (~> 7.0)
-    - GoogleUtilities/Network (~> 7.0)
-    - "GoogleUtilities/NSData+zlib (~> 7.0)"
-    - nanopb (~> 2.30906.0)
-  - FirebaseCore (7.3.0):
-    - FirebaseCoreDiagnostics (~> 7.0)
-    - GoogleUtilities/Environment (~> 7.0)
-    - GoogleUtilities/Logger (~> 7.0)
-  - FirebaseCoreDiagnostics (7.3.0):
-    - GoogleDataTransport (~> 8.0)
-    - GoogleUtilities/Environment (~> 7.0)
-    - GoogleUtilities/Logger (~> 7.0)
-    - nanopb (~> 2.30906.0)
-  - FirebaseCrashlytics (7.3.0):
-    - FirebaseCore (~> 7.0)
-    - FirebaseInstallations (~> 7.0)
-    - GoogleDataTransport (~> 8.0)
-    - nanopb (~> 2.30906.0)
-    - PromisesObjC (~> 1.2)
-  - FirebaseInstallations (7.3.0):
-    - FirebaseCore (~> 7.0)
-    - GoogleUtilities/Environment (~> 7.0)
-    - GoogleUtilities/UserDefaults (~> 7.0)
-    - PromisesObjC (~> 1.2)
-  - FirebaseRemoteConfig (7.3.0):
-    - FirebaseABTesting (~> 7.0)
-    - FirebaseCore (~> 7.0)
-    - FirebaseInstallations (~> 7.0)
-    - GoogleUtilities/Environment (~> 7.0)
-    - "GoogleUtilities/NSData+zlib (~> 7.0)"
+    - FirebaseRemoteConfig (~> 8.6.0)
+  - FirebaseABTesting (8.6.0):
+    - FirebaseCore (~> 8.0)
+  - FirebaseAnalytics (8.6.0):
+    - FirebaseAnalytics/AdIdSupport (= 8.6.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (8.6.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleAppMeasurement (= 8.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - FirebaseCore (8.6.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.6.0):
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+    - nanopb (~> 2.30908.0)
+  - FirebaseCrashlytics (8.6.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseInstallations (8.6.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/UserDefaults (~> 7.4)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseRemoteConfig (8.6.0):
+    - FirebaseABTesting (~> 8.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
   - FLKAutoLayout (1.0.1)
   - Floaty (4.1.0)
-  - GoogleAppMeasurement (7.3.0):
-    - GoogleUtilities/AppDelegateSwizzler (~> 7.0)
-    - GoogleUtilities/MethodSwizzler (~> 7.0)
-    - GoogleUtilities/Network (~> 7.0)
-    - "GoogleUtilities/NSData+zlib (~> 7.0)"
-    - nanopb (~> 2.30906.0)
-  - GoogleDataTransport (8.1.0):
-    - nanopb (~> 2.30906.0)
+  - GoogleAppMeasurement (8.6.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.6.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.6.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleDataTransport (9.1.0):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
   - GoogleMaps (2.7.0):
     - GoogleMaps/Maps (= 2.7.0)
   - GoogleMaps/Base (2.7.0)
   - GoogleMaps/Maps (2.7.0):
     - GoogleMaps/Base
-  - GoogleUtilities/AppDelegateSwizzler (7.1.1):
+  - GoogleUtilities/AppDelegateSwizzler (7.5.1):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
-  - GoogleUtilities/Environment (7.1.1):
-    - PromisesObjC (~> 1.2)
-  - GoogleUtilities/Logger (7.1.1):
+  - GoogleUtilities/Environment (7.5.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.5.1):
     - GoogleUtilities/Environment
-  - GoogleUtilities/MethodSwizzler (7.1.1):
+  - GoogleUtilities/MethodSwizzler (7.5.1):
     - GoogleUtilities/Logger
-  - GoogleUtilities/Network (7.1.1):
+  - GoogleUtilities/Network (7.5.1):
     - GoogleUtilities/Logger
     - "GoogleUtilities/NSData+zlib"
     - GoogleUtilities/Reachability
-  - "GoogleUtilities/NSData+zlib (7.1.1)"
-  - GoogleUtilities/Reachability (7.1.1):
+  - "GoogleUtilities/NSData+zlib (7.5.1)"
+  - GoogleUtilities/Reachability (7.5.1):
     - GoogleUtilities/Logger
-  - GoogleUtilities/UserDefaults (7.1.1):
+  - GoogleUtilities/UserDefaults (7.5.1):
     - GoogleUtilities/Logger
   - JTMaterialSwitch (1.1)
   - lottie-ios (3.1.9)
@@ -122,13 +141,13 @@ PODS:
     - MotionInterchange (~> 1.6)
   - MotionInterchange (1.6.0)
   - MotionTransitioning (5.0.0)
-  - nanopb (2.30906.0):
-    - nanopb/decode (= 2.30906.0)
-    - nanopb/encode (= 2.30906.0)
-  - nanopb/decode (2.30906.0)
-  - nanopb/encode (2.30906.0)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
   - ObjectMapper (3.4.2)
-  - PromisesObjC (1.2.11)
+  - PromisesObjC (2.0.0)
   - R.swift (5.1.0):
     - R.swift.Library (~> 5.1.0)
   - R.swift.Library (5.1.0)
@@ -138,10 +157,10 @@ PODS:
   - Realm/Headers (4.4.0)
   - RealmSwift (4.4.0):
     - Realm (= 4.4.0)
-  - SDWebImage (5.10.0):
-    - SDWebImage/Core (= 5.10.0)
-  - SDWebImage/Core (5.10.0)
-  - SkeletonView (1.11.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SkeletonView (1.24.4)
   - SnapKit (4.2.0)
   - SwiftCommons/Lang (1.3.2):
     - SwiftCommonsLang (= 1.3.2)
@@ -182,10 +201,10 @@ DEPENDENCIES:
   - Firebase/Analytics
   - Firebase/Crashlytics
   - Firebase/RemoteConfig
-  - FLKAutoLayout (from `~/Documents/gitlabLibraries/NEW_grom_gitlab/flkautolayout`)
+  - FLKAutoLayout (from `https://gitlab.rencredit.ru/mobile/ios_pods/flkautolayout.git`, branch `hotfix/1.0.1-patch.1`)
   - Floaty (~> 4.1.0)
   - GoogleMaps (= 2.7.0)
-  - JTMaterialSwitch (from `~/Documents/gitlabLibraries/NEW_grom_gitlab/jtmaterialswitch`)
+  - JTMaterialSwitch (from `https://gitlab.rencredit.ru/mobile/ios_pods/jtmaterialswitch.git`, branch `hotfix/1.1.0-patch.1`)
   - lottie-ios (~> 3.1.8)
   - MDFInternationalization (= 2.0.0)
   - MDFTextAccessibility (= 2.0.0)
@@ -193,7 +212,7 @@ DEPENDENCIES:
   - ModernDesign (~> 1.3.1)
   - MotionAnimator (= 2.8.1)
   - MotionTransitioning (= 5.0.0)
-  - ObjectMapper (from `~/Documents/gitlabLibraries/NEW_grom_gitlab/ObjectMapper`)
+  - ObjectMapper (from `https://gitlab.rencredit.ru/mobile/ios_pods/ObjectMapper.git`, branch `hotfix/3.4.2-patch.1`)
   - R.swift (~> 5.1.0)
   - ReachabilitySwift (~> 4.1.0)
   - RealmSwift (= 4.4.0)
@@ -208,7 +227,7 @@ DEPENDENCIES:
   - SwiftCommonsLogging (~> 1.3.2)
   - SwiftCommonsObjC (~> 1.3.2)
   - SwiftLint (~> 0.30.1)
-  - SWTableViewCell (from `~/Documents/gitlabLibraries/NEW_grom_gitlab/SWTableViewCell`)
+  - SWTableViewCell (from `https://gitlab.rencredit.ru/mobile/ios_pods/SWTableViewCell.git`, branch `hotfix/xcode12`)
   - Threads (= 3.7.4)
   - Zip (~> 1.1)
 
@@ -269,41 +288,59 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   FLKAutoLayout:
-    :path: "~/Documents/gitlabLibraries/NEW_grom_gitlab/flkautolayout"
+    :branch: hotfix/1.0.1-patch.1
+    :git: https://gitlab.rencredit.ru/mobile/ios_pods/flkautolayout.git
   JTMaterialSwitch:
-    :path: "~/Documents/gitlabLibraries/NEW_grom_gitlab/jtmaterialswitch"
+    :branch: hotfix/1.1.0-patch.1
+    :git: https://gitlab.rencredit.ru/mobile/ios_pods/jtmaterialswitch.git
   MFMSPushNE:
     :podspec: https://maven-pub.mfms.ru/repository/maven-public/com/mfms/ios/push-ne/2.5.1/MFMSPushNE.podspec
   ObjectMapper:
-    :path: "~/Documents/gitlabLibraries/NEW_grom_gitlab/ObjectMapper"
+    :branch: hotfix/3.4.2-patch.1
+    :git: https://gitlab.rencredit.ru/mobile/ios_pods/ObjectMapper.git
   SWTableViewCell:
-    :path: "~/Documents/gitlabLibraries/NEW_grom_gitlab/SWTableViewCell"
+    :branch: hotfix/xcode12
+    :git: https://gitlab.rencredit.ru/mobile/ios_pods/SWTableViewCell.git
+
+CHECKOUT OPTIONS:
+  FLKAutoLayout:
+    :commit: 2097557696e77f441459bce5c61835674e4ff910
+    :git: https://gitlab.rencredit.ru/mobile/ios_pods/flkautolayout.git
+  JTMaterialSwitch:
+    :commit: 257f3d7aade2dd5483a847277123767484697abf
+    :git: https://gitlab.rencredit.ru/mobile/ios_pods/jtmaterialswitch.git
+  ObjectMapper:
+    :commit: 6c6dd00b4abd6b8eb6ef80b2d9a8b1994afad0f2
+    :git: https://gitlab.rencredit.ru/mobile/ios_pods/ObjectMapper.git
+  SWTableViewCell:
+    :commit: 6ca2ea1b9aa1cfe4f498ad1df8ce2d3fd3fa5cff
+    :git: https://gitlab.rencredit.ru/mobile/ios_pods/SWTableViewCell.git
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   AlamofireNetworkActivityIndicator: 9acc3de3ca6645bf0efed462396b0df13dd3e7b8
-  Amplitude: 5627b4574e36d789a75c1656ba39b3278edf1ade
+  Amplitude: c25a44ad72b84e684fcf67c478c1fb5c95e286a3
   CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
   Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
   Crashlytics: 9220f5bc89e7a618df411b4f639389dbfb0e03d2
   CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
   Dispatch: 7ed89f2845001c4161ad83f43988b584fae8fff4
   Fabric: ea977e3cd9c20425516d3dafd3bf8c941c51223f
-  Firebase: 26223c695fe322633274198cb19dca8cb7e54416
-  FirebaseABTesting: 303b5366c0c75be479424e8935e2f475cf24ce21
-  FirebaseAnalytics: 2580c2d62535ae7b644143d48941fcc239ea897a
-  FirebaseCore: 4d3c72622ce0e2106aaa07bb4b2935ba2c370972
-  FirebaseCoreDiagnostics: d50e11039e5984d92c8a512be2395f13df747350
-  FirebaseCrashlytics: d31325312c92e2cb2f0386d589b9aa44e303d99b
-  FirebaseInstallations: 971df89b48ae5ee4cc2bf6935f3857a525d28550
-  FirebaseRemoteConfig: 826fad8bec5ce1912ef97a124d6ec0ce4dcf6ec1
+  Firebase: 21ac9f28b09a8bdfc005f34c984fca84e7e8786d
+  FirebaseABTesting: c3e48ebf5e7e5c674c5a131c68e941d7921d83dc
+  FirebaseAnalytics: 8f32ae54ad42754f503354782575c4ddfc1425c3
+  FirebaseCore: 620b677f70f5470a8e59cb77f3ddc666f6f09785
+  FirebaseCoreDiagnostics: 3721920bde3a9a6d5aa093c1d25e9d3e47f694af
+  FirebaseCrashlytics: 58f8ecea7c799c61c50e8111d2e438424a8a1d2e
+  FirebaseInstallations: 0ede6ffcd215b8f93c19d9b06c1c54e2d4107e98
+  FirebaseRemoteConfig: 9ee4672d4eacf646256e26cfac61021b3a390ea4
   FLKAutoLayout: 37e1e09de6411dbee5526860d9f55d9063323ea8
   Floaty: 1a4e213f3512cf3045ef9cb0c1ff456226d1f66a
-  GoogleAppMeasurement: 8d3c0aeede16ab7764144b5a4ca8e1d4323841b7
-  GoogleDataTransport: 116c84c4bdeb76be2a7a46de51244368f9794eab
+  GoogleAppMeasurement: 2c0c6e2a7ab3fe730ade6379f732bdefb46f50b0
+  GoogleDataTransport: 85fd18ff3019bb85d3f2c551d04c481dedf71fc9
   GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
-  GoogleUtilities: 3dc4ff0d5e4840e2fa8eef0889620e8c33d4218c
+  GoogleUtilities: 3df19e3c24f7bbc291d8b5809aa6b0d41e642437
   JTMaterialSwitch: cad8093c3773ff9f6c60005c98d269eb869b5e04
   lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
@@ -314,16 +351,16 @@ SPEC CHECKSUMS:
   MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   MotionTransitioning: 23d25edc2f4606efb922403cbac6d81af37aa33a
-  nanopb: 1bf24dd71191072e120b83dd02d08f3da0d65e53
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   ObjectMapper: e32ffa731972d14029650dde846fc902b5f4a454
-  PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   R.swift: 8cbc4fc69b740305b6a17c8a8ed968eb788962d9
   R.swift.Library: fa85ce1e0d0b7e818cd9e080df910ba54d2776cc
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
   Realm: e125f464884cda953ebefe70c671b75b03b81b9b
   RealmSwift: 33656a42bd300959a081fc13347376bc478071af
-  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
-  SkeletonView: cc84ce90a804dd0dd7198dd802833411c8a64eaf
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SkeletonView: c8632f212fcce7b7ba742c3d4a5af3596b5fa5ae
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwiftCommons: 3a5bd904746e33b63c5cd3e5a9c7bec8fddba5c3
   SwiftCommonsAbstractions: 46a55ad6ce41f8721f4d43354460a151892e56c2
@@ -338,6 +375,6 @@ SPEC CHECKSUMS:
   Threads: 9d47d935321fc7afaad2640612c41bdf5d6b1e3e
   Zip: 8877eede3dda76bcac281225c20e71c25270774c
 
-PODFILE CHECKSUM: 725468e1c96ffc7ce9d3da4f45fee30045265df3
+PODFILE CHECKSUM: 49067aae9a09be209f09012ac3d27bd3f4967321
 
 COCOAPODS: 1.10.2
